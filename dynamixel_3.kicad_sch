@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-11-26")
+		(date "2025-11-28")
 		(rev "A1")
 		(company "Pollen Robotics / Hugging Face")
 	)
@@ -6849,15 +6849,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 317.5 204.47 270)
+		(at 317.5 204.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2537fd67-16f7-4437-b62c-4c943da1f470")
 		(property "Reference" "D11"
-			(at 318.516 201.168 90)
+			(at 316.484 201.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,8 +6866,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B5819WS"
-			(at 320.04 205.4224 90)
+		(property "Value" "DNP - B5819WS"
+			(at 314.96 205.4224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7161,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38dc3ae5-9d34-4db4-bf45-1c159f697f06")
 		(property "Reference" "J4"
 			(at 337.82 176.53 0)
@@ -7171,7 +7172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dynamixel-3"
+		(property "Value" "DNP - Dynamixel-3"
 			(at 337.82 173.99 0)
 			(effects
 				(font
@@ -9719,7 +9720,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aea83fe5-e0a3-4873-85a8-cc5def6f0ad8")
 		(property "Reference" "J5"
 			(at 337.82 191.77 0)
@@ -9730,7 +9731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dynamixel-3"
+		(property "Value" "DNP - Dynamixel-3"
 			(at 337.82 189.23 0)
 			(effects
 				(font
@@ -11319,7 +11320,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fcb21ecc-a523-44a3-9990-e74acc64f3f1")
 		(property "Reference" "D9"
 			(at 315.976 179.324 90)
@@ -11330,7 +11331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B5819WS"
+		(property "Value" "DNP - B5819WS"
 			(at 314.96 183.8324 90)
 			(effects
 				(font

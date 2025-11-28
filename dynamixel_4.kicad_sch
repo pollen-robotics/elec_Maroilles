@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-11-26")
+		(date "2025-11-28")
 		(rev "A1")
 		(company "Pollen Robotics / Hugging Face")
 	)
@@ -6441,7 +6441,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "24f217b8-93d7-4c71-a756-031d2f204240")
 		(property "Reference" "J9"
 			(at 325.374 200.152 0)
@@ -6452,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dynamixel-4"
+		(property "Value" "DNP - Dynamixel-4"
 			(at 325.12 203.2001 0)
 			(effects
 				(font
@@ -7144,7 +7144,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6bb38c5b-63af-4c16-a233-f3143b93d23f")
 		(property "Reference" "D13"
 			(at 286.004 188.468 90)
@@ -7155,7 +7155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B5819WS"
+		(property "Value" "DNP - B5819WS"
 			(at 284.48 192.7224 90)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c7261cce-0c79-44ca-aa9f-160e3bf89daa")
 		(property "Reference" "D14"
 			(at 293.116 188.468 90)
@@ -9123,7 +9123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B5819WS"
+		(property "Value" "DNP - B5819WS"
 			(at 294.64 192.7224 90)
 			(effects
 				(font
@@ -10234,7 +10234,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9463ff9-cf88-4779-8c31-44cc271344ae")
 		(property "Reference" "J8"
 			(at 325.374 174.752 0)
@@ -10245,7 +10245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Dynamixel-4"
+		(property "Value" "DNP - Dynamixel-4"
 			(at 325.12 177.8001 0)
 			(effects
 				(font

@@ -718,6 +718,10 @@
       "Dynamixel TTL"
     ],
     [
+      "04028f59-f620-48fc-9917-8d603b3905a4",
+      "EtherCAT splitter"
+    ],
+    [
       "f4c62b9b-3355-4d2d-b204-2339b5836ff3",
       "Dynamixel RS485"
     ]
