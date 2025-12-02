@@ -281,8 +281,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -358,8 +362,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2724,138 +2727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46874f39-73ad-4d3d-95d9-5f8ddfd8a68c")
-		(property "Reference" "#PWR072"
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b807ffd0-1ce3-47e4-8ede-ba596ab5f305")
-		)
-		(instances
-			(project "elec_maroilles"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5285daa9-92c8-4f6d-85e9-9a20ff088921")
-		(property "Reference" "#PWR074"
-			(at 144.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8a47e37-850f-481d-9990-f03f31df893d")
-		)
-		(instances
-			(project "elec_maroilles"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 77.47 78.74 90)
 		(mirror x)
@@ -2968,14 +2839,15 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 116.84 39.37 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc8ea52b-c2e5-41d9-b843-c98ef967e76a")
-		(property "Reference" "#PWR073"
+		(uuid "9ac3f647-7ead-4a74-b68f-a85a8eb0908f")
+		(property "Reference" "#PWR022"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -3011,21 +2883,90 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7cfafa12-3220-4d1e-8bad-78758a7e9b21")
+			(uuid "810b690a-30da-4f21-be67-08a9c3354beb")
 		)
 		(instances
 			(project "elec_maroilles"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
-					(reference "#PWR073")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 77.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d4304b9-ca35-4401-b061-8afdabf500c0")
+		(property "Reference" "#PWR017"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9414ad26-599a-4783-a8c1-d50ce42f1603")
+		)
+		(instances
+			(project "elec_maroilles"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3134,6 +3075,74 @@
 			(project "elec_maroilles"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 78.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27a4833-39a6-4086-9ebc-afe895f2933e")
+		(property "Reference" "#PWR018"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e8cdd53-bf15-402f-9d14-1e196fe95a4e")
+		)
+		(instances
+			(project "elec_maroilles"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/04028f59-f620-48fc-9917-8d603b3905a4"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
