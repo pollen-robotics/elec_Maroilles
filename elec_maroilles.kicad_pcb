@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "carte elec_maroilles")
-		(date "2025-11-26")
+		(date "2025-12-02")
 		(rev "A1")
 		(company "Pollen Robotics / Hugging Face")
 	)
@@ -229,7 +229,7 @@
 		(descr "Molex PicoBlade series connector, 53398-0571 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade vertical")
 		(property "Reference" "J12"
-			(at -5.2 -2.35 0)
+			(at -15.601 -3.951 0)
 			(layer "F.SilkS")
 			(uuid "8913e5f6-bf59-4e8e-bf6f-d7f4e1b5a343")
 			(effects
@@ -8947,7 +8947,7 @@
 		(descr "Molex PicoBlade series connector, 53398-0571 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade vertical")
 		(property "Reference" "J10"
-			(at -5.7 -1.65 90)
+			(at -1.601 7.851 90)
 			(layer "F.SilkS")
 			(uuid "2098c2b6-31ae-40ad-aaf0-20fe5a0c3927")
 			(effects
@@ -12400,7 +12400,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at -2.5 0.3 90)
+			(at -2.5 0.2 90)
 			(layer "F.SilkS")
 			(uuid "726bd989-6132-4659-900b-5bec5f85dd42")
 			(effects
@@ -12471,7 +12471,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15035,7 +15035,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15263,7 +15263,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at -2.555 -1.5 90)
+			(at -2.455 -1.7 90)
 			(layer "F.SilkS")
 			(uuid "fe5552df-df92-42e3-b37b-2c551c198dbf")
 			(effects
@@ -15334,7 +15334,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15633,7 +15633,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18089,7 +18089,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at -2.9 -1.4 90)
+			(at -2.6 -1.6 90)
 			(layer "F.SilkS")
 			(uuid "4e6570a9-55d4-46e8-bd61-cb486a841af4")
 			(effects
@@ -18160,7 +18160,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22294,7 +22294,7 @@
 		(descr "Molex PicoBlade series connector, 53398-0571 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade vertical")
 		(property "Reference" "J11"
-			(at -4.8 -2.5 0)
+			(at -15.601 1.599 0)
 			(layer "F.SilkS")
 			(uuid "2cf25ef2-b3e8-4e6f-9d95-61ca9fc3689d")
 			(effects
@@ -30601,6 +30601,19 @@
 		)
 		(uuid "49ed9549-f820-4725-aca0-93196ea1bdbb")
 	)
+	(gr_text "Left\ngripper"
+		(at 225.1775 74.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "4be19161-234d-488b-ae11-b7802dad348d")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.24)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "elec Maroilles\nASE01146-A1"
 		(at 150.9775 74.5 0)
 		(layer "F.SilkS" knockout)
@@ -30609,6 +30622,32 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Right gripper"
+		(at 124.9775 81.3 0)
+		(layer "F.SilkS" knockout)
+		(uuid "911ac71c-9a0f-43f3-a8ca-c0c840eb06b0")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.24)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Head"
+		(at 177.4775 76.7 0)
+		(layer "F.SilkS" knockout)
+		(uuid "da19d914-8c86-4ea3-a0d6-922e687f2910")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.24)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -41684,6 +41723,40 @@
 				(xy 100.468109 60.020814) (xy 100.468102 60.020827) (xy 100.407764 60.166498) (xy 100.407761 60.16651)
 				(xy 100.377 60.321153) (xy 81.278 60.321153) (xy 81.278 58.0245) (xy 81.297685 57.957461) (xy 81.350489 57.911706)
 				(xy 81.402 57.9005) (xy 110.21627 57.9005)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "2582f730-e854-471f-8ce0-85f621efe5cb")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 188.4775 64.3) (xy 185.5775 68) (xy 185.5775 81.9) (xy 206.5775 81.9) (xy 206.5775 69.4) (xy 201.3775 64.3)
+			)
+		)
+		(filled_polygon
+			(layer "F.SilkS")
+			(island)
+			(pts
+				(xy 188.577451 64.402094) (xy 188.609568 64.464144) (xy 188.611847 64.487809) (xy 188.611847 66.841742)
+				(xy 201.307562 66.841742) (xy 201.307562 64.526706) (xy 201.327247 64.459667) (xy 201.380051 64.413912)
+				(xy 201.449209 64.403968) (xy 201.512765 64.432993) (xy 201.518388 64.438178) (xy 206.540326 69.36354)
+				(xy 206.574405 69.424535) (xy 206.5775 69.452068) (xy 206.5775 81.776) (xy 206.557815 81.843039)
+				(xy 206.505011 81.888794) (xy 206.4535 81.9) (xy 185.7015 81.9) (xy 185.634461 81.880315) (xy 185.588706 81.827511)
+				(xy 185.5775 81.776) (xy 185.5775 68.042803) (xy 185.597185 67.975764) (xy 185.603905 67.96631)
+				(xy 188.390252 64.411316) (xy 188.4471 64.370695) (xy 188.516885 64.367257)
 			)
 		)
 	)

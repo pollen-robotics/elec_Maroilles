@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-11-28")
+		(date "2025-12-02")
 		(rev "A1")
 		(company "Pollen Robotics / Hugging Face")
 	)
@@ -6252,7 +6252,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 252.73 157.48 90)
 			(effects
 				(font
@@ -6509,7 +6509,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 256.54 149.86 90)
 			(effects
 				(font
@@ -6911,7 +6911,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 250.19 149.86 90)
 			(effects
 				(font
@@ -7807,7 +7807,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "180"
 			(at 261.62 149.86 90)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 245.11 149.86 90)
 			(effects
 				(font
