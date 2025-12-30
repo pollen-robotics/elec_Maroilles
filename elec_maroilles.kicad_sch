@@ -750,6 +750,17 @@
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
 	)
+	(text "Todo:\n - attention les paires 2/3 et 4/5 sont inversées sur les \n    pico5 des grippers (cf. le câble du bras)."
+		(exclude_from_sim no)
+		(at 37.084 92.71 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "f29a2c38-2efe-4473-9003-2c565c026fff")
+	)
 	(text "SN"
 		(exclude_from_sim no)
 		(at 78.74 44.45 0)

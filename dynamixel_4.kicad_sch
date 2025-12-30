@@ -5991,6 +5991,16 @@
 			"GBgYGBgYGBgYGBgYGBgeLf4bP5hl1JiycycAAAAASUVORK5CYII="
 		)
 	)
+	(label "DynD+"
+		(at 256.54 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2342c76b-9236-4008-8ac5-8ddeafceb4a1")
+	)
 	(label "Rx"
 		(at 120.65 146.05 0)
 		(effects
@@ -6020,6 +6030,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9d5a9b7-8869-40ba-be41-3dd0577e216c")
+	)
+	(label "DynD-"
+		(at 256.54 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdd39445-43cd-4306-bb54-b745875af8f5")
 	)
 	(hierarchical_label "USB_DynP"
 		(shape input)
