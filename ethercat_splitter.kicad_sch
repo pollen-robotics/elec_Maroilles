@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-12-02")
-		(rev "A1")
+		(date "2026-02-02")
+		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols

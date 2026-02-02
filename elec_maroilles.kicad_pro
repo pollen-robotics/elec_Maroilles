@@ -570,7 +570,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -606,13 +606,13 @@
           "group_by": false,
           "label": "Man.",
           "name": "Man.",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Man. Ref.",
           "name": "Man. Ref.",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -654,7 +654,19 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",

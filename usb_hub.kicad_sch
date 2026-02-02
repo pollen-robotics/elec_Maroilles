@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-12-02")
-		(rev "A1")
+		(date "2026-02-02")
+		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -528,6 +528,26 @@
 					(hide yes)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(effects
@@ -608,18 +628,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -675,9 +683,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,7 +703,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -787,7 +796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3145,16 +3154,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 144.78) (xy 171.45 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "608fb144-1057-4c23-a243-5da8577facce")
-	)
-	(wire
-		(pts
 			(xy 88.9 138.43) (xy 88.9 135.89)
 		)
 		(stroke
@@ -3312,16 +3311,6 @@
 			(type default)
 		)
 		(uuid "84600191-173c-40f8-ba9b-c0d73b562d96")
-	)
-	(wire
-		(pts
-			(xy 170.18 144.78) (xy 171.45 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5aeae1-4f39-4241-89c8-11da6ca52606")
 	)
 	(wire
 		(pts
@@ -6252,7 +6241,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 252.73 157.48 90)
 			(effects
 				(font
@@ -6281,6 +6270,15 @@
 		)
 		(property "LCSC Part" "C7429915"
 			(at 252.73 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 252.73 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,6 +6536,15 @@
 		)
 		(property "LCSC Part" "C19171301"
 			(at 256.54 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 256.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 250.19 149.86 90)
 			(effects
 				(font
@@ -6940,6 +6947,15 @@
 		)
 		(property "LCSC Part" "C84263"
 			(at 250.19 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 261.62 149.86 90)
 			(effects
 				(font
@@ -7836,6 +7852,15 @@
 		)
 		(property "LCSC Part" "C84263"
 			(at 261.62 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,6 +8052,15 @@
 		)
 		(property "LCSC Part" "C19171301"
 			(at 245.11 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,73 +8354,6 @@
 			(project "elec_zuuu_up"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/ae8d82a0-b946-4523-82af-688daf2fb74d"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccc45f61-a5d0-4142-8b36-0b03dcc6a9d3")
-		(property "Reference" "#PWR08"
-			(at 171.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de157f36-d109-430d-87a9-70194c4735a9")
-		)
-		(instances
-			(project "elec_zuuu_up"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/ae8d82a0-b946-4523-82af-688daf2fb74d"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)

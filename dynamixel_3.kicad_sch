@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "elec_maroilles")
-		(date "2025-12-02")
-		(rev "A1")
+		(date "2026-02-02")
+		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -1531,7 +1531,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "R_* RV_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1543,7 +1543,7 @@
 			(symbol "Thermistor_0_1"
 				(polyline
 					(pts
-						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
+						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -1553,19 +1553,19 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Thermistor_1_1"
 				(rectangle
 					(start -1.016 2.54)
 					(end 1.016 -2.54)
 					(stroke
-						(width 0.2032)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Thermistor_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -2375,6 +2375,24 @@
 				)
 			)
 			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6444,7 +6462,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C302042"
+		(property "LCSC Part" "C1592"
 			(at 80.01 106.68 0)
 			(effects
 				(font
@@ -6688,6 +6706,24 @@
 			)
 		)
 		(property "LCSC Part" "C727128"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 161.29 82.55 0)
 			(effects
 				(font
@@ -10017,7 +10053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C302042"
+		(property "LCSC Part" "C1592"
 			(at 74.93 106.68 0)
 			(effects
 				(font
@@ -10682,7 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 288.29 184.15 90)
 			(effects
 				(font
